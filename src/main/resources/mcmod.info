@@ -1,0 +1,16 @@
+[
+{
+  "modid": "magickaassist",
+  "name": "Magicka Assistance",
+  "description": "Ooh, shiny magic!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheMasterGeneral"],
+  "credits": "Everyone involved in the project. Especially Darkblood9696 for ideas!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,11 @@
+item.gemmined.name=Raw Rune
+item.gemmagic.name=Infused Rune (Blank)
+item.rune.0.name=Fire Rune
+item.rune.1.name=Water Rune
+item.rune.2.name=Earth Rune
+item.rune.3.name=Air Rune
+item.wand.name=Conjurer's Wand
+item.firestaff.name=Fire Staff
+item.enderstaff.name=Ender Staff
+
+itemGroup.magickaassist=Magicka Assist
