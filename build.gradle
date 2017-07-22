@@ -16,7 +16,7 @@ buildscript
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "${mc_version}-${mod_version}"
-group = "com.themastergeneral.magick"
+group = "com.themastergeneral.magickassist"
 archivesBaseName = "Magicka Assitance"
 
 sourceCompatibility = targetCompatibility = '1.8'

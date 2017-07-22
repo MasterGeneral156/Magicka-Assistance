@@ -16,9 +16,9 @@ public class MagickaAssist
 {
 	public static final String MODID = "magickaassist";
 	public static final String MODNAME = "Magicka Assist";
-	public static final String acceptedMinecraftVersions = "1.11.2";
+	public static final String acceptedMinecraftVersions = "1.12";
 	public static final String VERSION = acceptedMinecraftVersions + "-0.0.0.0";
-	public static final String DEPENDENCIES = "required-after:ctdcore@[1.0.3,]";
+	public static final String DEPENDENCIES = "required-after:ctdcore@[1.1.6,]";
 	public static final String updateJSON = "https://raw.githubusercontent.com/MasterGeneral156/Version/master/MagickaAssist.json";
 	
 	public static final CreativeTab creativeTab = new CreativeTab();
