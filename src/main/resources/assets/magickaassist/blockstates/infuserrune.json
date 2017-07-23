@@ -1,0 +1,24 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+"ambientocclusion": false,
+    "textures": {
+        "0": "magickaassist:blocks/runeinfuserside",
+        "1": "magickaassist:blocks/runeinfusertop",
+        "2": "magickaassist:blocks/runeinfuserbottom"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 12.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 4.0, 16.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 4.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 4.0, 16.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 4.0, 16.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

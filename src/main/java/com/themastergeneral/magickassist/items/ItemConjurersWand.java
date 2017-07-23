@@ -1,7 +1,10 @@
 package com.themastergeneral.magickassist.items;
 
+import com.themastergeneral.magickassist.blocks.ModBlocks;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -15,6 +18,7 @@ import net.minecraft.world.World;
 public class ItemConjurersWand extends CraftingItemDamage {
 
 	private Block containedBlock;
+	private Block blockchangeto = ModBlocks.infuserRune;
 	public ItemConjurersWand(String name, String modid, int damage)
 	{
 		super(name, modid, damage);
@@ -52,8 +56,10 @@ public class ItemConjurersWand extends CraftingItemDamage {
                 	IBlockState iblockstate = worldIn.getBlockState(blockpos);
                 	if (iblockstate == blocktotest.getDefaultState())
                 	{
-                		worldIn.setBlockState(blockpos, Blocks.DIAMOND_BLOCK.getDefaultState(), 11);
+                		worldIn.setBlockState(blockpos, blockchangeto.getDefaultState(), 11);
                 		itemstack.damageItem(1, playerIn);
+                		EntityLightningBolt lightning = new EntityLightningBolt(worldIn, blockpos.getX(), blockpos.getY(), blockpos.getZ(), false);
+                		worldIn.addWeatherEffect(lightning);
                 		return new ActionResult(EnumActionResult.PASS, itemstack);
                 	}
                 	else
